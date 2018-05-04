@@ -1,0 +1,39 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="39480B9D-344A-4333-8BCC-6C13A88DD10B">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="NEW" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="NEW" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="System.Windows.Forms" AssemblyName="System.Windows.Forms" HintPath="System.Windows.Forms.dll" />
+        <Reference Name="System" AssemblyName="System" HintPath="System.dll" />
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="System.Drawing" AssemblyName="System.Drawing" HintPath="System.Drawing.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DLLInjection.Gui\MainForm.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DLLInjection.Gui\IniFile.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DLLInjection.Gui\Program.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DLLInjection.Gui.Properties\Resources.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DLLInjection.Gui.Properties\Settings.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DLLInjection\DLLInjectionFailedException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DLLInjection\DLLInjector.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DLLInjection\InjectionMethod.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DLLInjection\InjectionOptions.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DLLInjection\WinAPI.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DLLInjection\Utils.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DLLInjection.InjectionStrategies\CreateRemoteThreadInjectionStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DLLInjection.InjectionStrategies\IInjectionStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DLLInjection.InjectionStrategies\InjectionStrategyFactory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DLLInjection.InjectionStrategies\LoadLibraryInjectionStrategyBase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DLLInjection.InjectionStrategies\NtCreateThreadExInjectionStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DLLInjection.Gui.MainForm.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="DLLInjection.Gui.Properties.Resources.resx" BuildAction="EmbeddedResource" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>
